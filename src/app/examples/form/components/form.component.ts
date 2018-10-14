@@ -14,7 +14,7 @@ import { selectForm } from '../form.selectors';
 import { Form } from '../form.model';
 
 @Component({
-  selector: 'anms-form',
+  selector: 'niffler-form',
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.scss']
 })
@@ -75,9 +75,9 @@ export class FormComponent implements OnInit, OnDestroy {
       this.save();
       this.snackBar.open(
         this.form.value.requestGift
-          ? this.translate.instant('anms.examples.form.text4')
-          : this.translate.instant('anms.examples.form.text5'),
-        this.translate.instant('anms.examples.form.text6'),
+          ? this.translate.instant('niffler.examples.form.text4')
+          : this.translate.instant('niffler.examples.form.text5'),
+        this.translate.instant('niffler.examples.form.text6'),
         {
           duration: 1000
         }

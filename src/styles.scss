@@ -24,33 +24,33 @@
 @import 'app/examples/examples/examples.component.scss-theme';
 
 @mixin custom-components-theme($theme) {
-  @include anms-styles-reset-theme($theme);
-  @include anms-app-component-theme($theme);
-  @include anms-about-component-theme($theme);
-  @include anms-big-input-component-theme($theme);
-  @include anms-todos-container-component-theme($theme);
-  @include anms-stock-market-container-component-theme($theme);
-  @include anms-parent-component-theme($theme);
-  @include anms-child-component-theme($theme);
-  @include anms-examples-component-theme($theme);
+  @include niffler-styles-reset-theme($theme);
+  @include niffler-app-component-theme($theme);
+  @include niffler-about-component-theme($theme);
+  @include niffler-big-input-component-theme($theme);
+  @include niffler-todos-container-component-theme($theme);
+  @include niffler-stock-market-container-component-theme($theme);
+  @include niffler-parent-component-theme($theme);
+  @include niffler-child-component-theme($theme);
+  @include niffler-examples-component-theme($theme);
 }
 
 .default-theme {
-  @include angular-material-theme($anms-theme);
-  @include custom-components-theme($anms-theme);
+  @include angular-material-theme($niffler-theme);
+  @include custom-components-theme($niffler-theme);
 }
 
 .light-theme {
-  @include angular-material-theme($anms-light-theme);
-  @include custom-components-theme($anms-light-theme);
+  @include angular-material-theme($niffler-light-theme);
+  @include custom-components-theme($niffler-light-theme);
 }
 
 .black-theme {
-  @include angular-material-theme($anms-black-theme);
-  @include custom-components-theme($anms-black-theme);
+  @include angular-material-theme($niffler-black-theme);
+  @include custom-components-theme($niffler-black-theme);
 }
 
 .nature-theme {
-  @include angular-material-theme($anms-nature-theme);
-  @include custom-components-theme($anms-nature-theme);
+  @include angular-material-theme($niffler-nature-theme);
+  @include custom-components-theme($niffler-nature-theme);
 }

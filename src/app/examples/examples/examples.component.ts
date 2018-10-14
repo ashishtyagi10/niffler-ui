@@ -12,7 +12,7 @@ import { State } from '../examples.state';
 import { selectAuth } from '@app/core/auth/auth.selectors';
 
 @Component({
-  selector: 'anms-examples',
+  selector: 'niffler-examples',
   templateUrl: './examples.component.html',
   styleUrls: ['./examples.component.scss'],
   animations: [routeAnimations]
@@ -22,12 +22,12 @@ export class ExamplesComponent implements OnInit, OnDestroy {
   private isAuthenticated$: Observable<boolean>;
 
   examples = [
-    { link: 'todos', label: 'anms.examples.menu.todos' },
-    { link: 'stock-market', label: 'anms.examples.menu.stocks' },
-    { link: 'theming', label: 'anms.examples.menu.theming' },
-    { link: 'crud', label: 'anms.examples.menu.crud' },
-    { link: 'form', label: 'anms.examples.menu.form' },
-    { link: 'authenticated', label: 'anms.examples.menu.auth', auth: true }
+    { link: 'todos', label: 'niffler.examples.menu.todos' },
+    { link: 'stock-market', label: 'niffler.examples.menu.stocks' },
+    { link: 'theming', label: 'niffler.examples.menu.theming' },
+    { link: 'crud', label: 'niffler.examples.menu.crud' },
+    { link: 'form', label: 'niffler.examples.menu.form' },
+    { link: 'authenticated', label: 'niffler.examples.menu.auth', auth: true }
   ];
 
   constructor(

@@ -24,38 +24,38 @@ const routes: Routes = [
       {
         path: 'todos',
         component: TodosContainerComponent,
-        data: { title: 'anms.examples.menu.todos' }
+        data: { title: 'niffler.examples.menu.todos' }
       },
       {
         path: 'stock-market',
         component: StockMarketContainerComponent,
-        data: { title: 'anms.examples.menu.stocks' }
+        data: { title: 'niffler.examples.menu.stocks' }
       },
       {
         path: 'theming',
         component: ParentComponent,
-        data: { title: 'anms.examples.menu.theming' }
+        data: { title: 'niffler.examples.menu.theming' }
       },
       {
         path: 'crud',
         component: CrudComponent,
-        data: { title: 'anms.examples.menu.crud' }
+        data: { title: 'niffler.examples.menu.crud' }
       },
       {
         path: 'crud/:id',
         component: CrudComponent,
-        data: { title: 'anms.examples.menu.crud' }
+        data: { title: 'niffler.examples.menu.crud' }
       },
       {
         path: 'form',
         component: FormComponent,
-        data: { title: 'anms.examples.menu.form' }
+        data: { title: 'niffler.examples.menu.form' }
       },
       {
         path: 'authenticated',
         component: AuthenticatedComponent,
         canActivate: [AuthGuardService],
-        data: { title: 'anms.examples.menu.auth' }
+        data: { title: 'niffler.examples.menu.auth' }
       }
     ]
   }

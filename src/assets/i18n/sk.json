@@ -1,73 +1,73 @@
 {
-  "anms.title": "Niffler",
-  "anms.title.short": "Niffler",
-  "anms.header.github": "Github Repotitár Projektu",
-  "anms.footer.changelog": "Zobraziť list zmien",
-  "anms.menu.about": "Domov",
-  "anms.menu.features": "Vlastnosti",
-  "anms.menu.examples": "Príklady",
-  "anms.menu.settings": "Nastavenia",
-  "anms.menu.login": "Prihlásenie",
-  "anms.menu.logout": "Odhlásenie",
-  "anms.about.change-theme": "Zmeniť Tému",
-  "anms.about.check-blogs": "alebo si pozri blogy o",
-  "anms.about.get-started": "Ako začať",
-  "anms.about.get-notified": "Upozornenia na nové vydania",
-  "anms.about.get-notified.follow": "Sleduj",
-  "anms.about.get-notified.description":
+  "niffler.title": "Niffler",
+  "niffler.title.short": "Niffler",
+  "niffler.header.github": "Github Repotitár Projektu",
+  "niffler.footer.changelog": "Zobraziť list zmien",
+  "niffler.menu.about": "Domov",
+  "niffler.menu.features": "Vlastnosti",
+  "niffler.menu.examples": "Príklady",
+  "niffler.menu.settings": "Nastavenia",
+  "niffler.menu.login": "Prihlásenie",
+  "niffler.menu.logout": "Odhlásenie",
+  "niffler.about.change-theme": "Zmeniť Tému",
+  "niffler.about.check-blogs": "alebo si pozri blogy o",
+  "niffler.about.get-started": "Ako začať",
+  "niffler.about.get-notified": "Upozornenia na nové vydania",
+  "niffler.about.get-notified.follow": "Sleduj",
+  "niffler.about.get-notified.description":
     ", Twitter bota ktorý ti pomôže zostať aktuálnym s vydaniami populárnych frontend frameworkov a knižníc!",
-  "anms.about.contributors": "Prispievatelia",
-  "anms.about.contributors.description1":
+  "niffler.about.contributors": "Prispievatelia",
+  "niffler.about.contributors.description1":
     "Chceš začať prispievať do open source s Angularom?",
-  "anms.about.contributors.description2":
+  "niffler.about.contributors.description2":
     "Zanechaj svoju stopu a pridaj sa do rastúceho tímu prispievateľov!",
-  "anms.about.contributors.description3": "Začni tým že si pozrieš ",
-  "anms.about.contributors.description4": " a ",
-  "anms.about.contributors.issues": "list otvorených problémov ",
-  "anms.about.contributors.guide": "prispievateľskú príručku",
-  "anms.features.title": "Vlastnosti",
-  "anms.features.documentation": "Dok.",
-  "anms.features.guide": "Návod",
-  "anms.features.angular": "Moderný výkonný framework",
-  "anms.features.angular-material":
+  "niffler.about.contributors.description3": "Začni tým že si pozrieš ",
+  "niffler.about.contributors.description4": " a ",
+  "niffler.about.contributors.issues": "list otvorených problémov ",
+  "niffler.about.contributors.guide": "prispievateľskú príručku",
+  "niffler.features.title": "Vlastnosti",
+  "niffler.features.documentation": "Dok.",
+  "niffler.features.guide": "Návod",
+  "niffler.features.angular": "Moderný výkonný framework",
+  "niffler.features.angular-material":
     "Knižnica komponentov implementujúcich Material Dizajn",
-  "anms.features.angular-cli": "Rozhranie príkazového riadka pre Angular",
-  "anms.features.ngrx": "Jednosmerný tok dát s pomocou RxJS Observables",
-  "anms.features.rxjs":
+  "niffler.features.angular-cli": "Rozhranie príkazového riadka pre Angular",
+  "niffler.features.ngrx": "Jednosmerný tok dát s pomocou RxJS Observables",
+  "niffler.features.rxjs":
     "Reaktívne programovanie s asynchrónymi kolekciami s pomocou Observables",
-  "anms.features.ngxtranslate":
+  "niffler.features.ngxtranslate":
     "Knižnica pre internacionalizáciu Angular applikácií",
-  "anms.features.bootstrap":
+  "niffler.features.bootstrap":
     "Responzívny dizajn od ostrielanej, svetoznámej UI knižnice",
-  "anms.features.typescript":
+  "niffler.features.typescript":
     "Vynikajúca podpora developerov, automatické dokončovanie kódu, refaktorovanie a menej chýb",
-  "anms.features.fontawesome":
+  "niffler.features.fontawesome":
     "Ľahko použiteľné vektorové ikony a sociálne logá",
-  "anms.features.themes":
+  "niffler.features.themes":
     "Flexibilná podpora tém pre vstavané a vlastné komponenty",
-  "anms.features.themes.title": "Témy",
-  "anms.features.lazyloading":
+  "niffler.features.themes.title": "Témy",
+  "niffler.features.lazyloading":
     "Rýchlejší štartovací čas s lenivým nahrávaním modulov",
-  "anms.features.lazyloading.title": "Lenivé nahrávanie",
-  "anms.settings.title": "Nastavenia",
-  "anms.settings.general": "Hlavné",
-  "anms.settings.general.placeholder": "Jazyk",
-  "anms.settings.general.language.en": "Angličtina",
-  "anms.settings.general.language.sk": "Slovenčina",
-  "anms.settings.general.language.de": "Nemčina",
-  "anms.settings.general.language.fr": "Francúzsky",
-  "anms.settings.general.language.es": "Španielsky",
-  "anms.settings.general.language.pt-br": "Portugalský",
-  "anms.settings.themes": "Témy",
-  "anms.settings.themes.placeholder": "Téma",
-  "anms.settings.themes.blue": "Modrá",
-  "anms.settings.themes.light": "Svetlá",
-  "anms.settings.themes.nature": "Prírodná",
-  "anms.settings.themes.dark": "Tmavá",
-  "anms.settings.themes.night-mode":
+  "niffler.features.lazyloading.title": "Lenivé nahrávanie",
+  "niffler.settings.title": "Nastavenia",
+  "niffler.settings.general": "Hlavné",
+  "niffler.settings.general.placeholder": "Jazyk",
+  "niffler.settings.general.language.en": "Angličtina",
+  "niffler.settings.general.language.sk": "Slovenčina",
+  "niffler.settings.general.language.de": "Nemčina",
+  "niffler.settings.general.language.fr": "Francúzsky",
+  "niffler.settings.general.language.es": "Španielsky",
+  "niffler.settings.general.language.pt-br": "Portugalský",
+  "niffler.settings.themes": "Témy",
+  "niffler.settings.themes.placeholder": "Téma",
+  "niffler.settings.themes.blue": "Modrá",
+  "niffler.settings.themes.light": "Svetlá",
+  "niffler.settings.themes.nature": "Prírodná",
+  "niffler.settings.themes.dark": "Tmavá",
+  "niffler.settings.themes.night-mode":
     "Automatický nočný režim (od 21:00 do 7:00)",
-  "anms.settings.animations": "Animácie",
-  "anms.settings.animations.page": "Animácia celej stránky pri navigácii",
-  "anms.settings.animations.elements":
+  "niffler.settings.animations": "Animácie",
+  "niffler.settings.animations.page": "Animácia celej stránky pri navigácii",
+  "niffler.settings.animations.elements":
     "Animácia elementov stránky pri navigácii"
 }

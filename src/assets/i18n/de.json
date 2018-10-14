@@ -1,70 +1,70 @@
 {
-  "anms.title": "Niffler",
-  "anms.title.short": "Niffler",
-  "anms.header.github": "Projekt Github-Repository",
-  "anms.footer.changelog": "Changelog anzeigen",
-  "anms.menu.about": "Über",
-  "anms.menu.features": "Eigenschaften",
-  "anms.menu.examples": "Beispiele",
-  "anms.menu.settings": "Einstellungen",
-  "anms.menu.login": "Anmelden",
-  "anms.menu.logout": "Abmelden",
-  "anms.about.change-theme": "Thema ändern",
-  "anms.about.check-blogs": "oder lese weitere Blogs darüber",
-  "anms.about.get-started": "Leg los!",
-  "anms.about.get-notified": "Werde über neue Versionen informiert",
-  "anms.about.get-notified.follow": "Folge",
-  "anms.about.get-notified.description":
+  "niffler.title": "Niffler",
+  "niffler.title.short": "Niffler",
+  "niffler.header.github": "Projekt Github-Repository",
+  "niffler.footer.changelog": "Changelog anzeigen",
+  "niffler.menu.about": "Über",
+  "niffler.menu.features": "Eigenschaften",
+  "niffler.menu.examples": "Beispiele",
+  "niffler.menu.settings": "Einstellungen",
+  "niffler.menu.login": "Anmelden",
+  "niffler.menu.logout": "Abmelden",
+  "niffler.about.change-theme": "Thema ändern",
+  "niffler.about.check-blogs": "oder lese weitere Blogs darüber",
+  "niffler.about.get-started": "Leg los!",
+  "niffler.about.get-notified": "Werde über neue Versionen informiert",
+  "niffler.about.get-notified.follow": "Folge",
+  "niffler.about.get-notified.description":
     "ein Twitterbot, der dich über die neusten Versionen deiner Lieblingsframeworks & -bibliotheken informiert!",
-  "anms.about.contributors": "Beitragende",
-  "anms.about.contributors.description1":
+  "niffler.about.contributors": "Beitragende",
+  "niffler.about.contributors.description1":
     "Möchtest du auch zu einem Open Source Projekt mit Angular beitragen?",
-  "anms.about.contributors.description2":
+  "niffler.about.contributors.description2":
     "Hinterlasse deine Spuren und werde Teil eines wachsenden Teams!",
-  "anms.about.contributors.description3": "Werfe einen ersten Blick auf",
-  "anms.about.contributors.description4": " und ",
-  "anms.about.contributors.issues": "offene Probleme",
-  "anms.about.contributors.guide": "die Anleitung für Beitragende",
-  "anms.features.title": "Features",
-  "anms.features.documentation": "Doku",
-  "anms.features.guide": "Anleitung",
-  "anms.features.angular": "Modernes und leistungsfähiges Framework",
-  "anms.features.angular-material": "Material Design-Komponente",
-  "anms.features.angular-cli": "Eine Befehlszeilenschnittstelle für Angular",
-  "anms.features.ngrx": "Einweg-Datenfluss unterstützt von RxJS Observables",
-  "anms.features.ngxtranslate":
+  "niffler.about.contributors.description3": "Werfe einen ersten Blick auf",
+  "niffler.about.contributors.description4": " und ",
+  "niffler.about.contributors.issues": "offene Probleme",
+  "niffler.about.contributors.guide": "die Anleitung für Beitragende",
+  "niffler.features.title": "Features",
+  "niffler.features.documentation": "Doku",
+  "niffler.features.guide": "Anleitung",
+  "niffler.features.angular": "Modernes und leistungsfähiges Framework",
+  "niffler.features.angular-material": "Material Design-Komponente",
+  "niffler.features.angular-cli": "Eine Befehlszeilenschnittstelle für Angular",
+  "niffler.features.ngrx": "Einweg-Datenfluss unterstützt von RxJS Observables",
+  "niffler.features.ngxtranslate":
     "Eine Internationalisierungsbibliothek für Angular",
-  "anms.features.rxjs":
+  "niffler.features.rxjs":
     "Reaktive Programmierung mit Async-Sammlungen unter Verwendung von Observablen",
-  "anms.features.bootstrap":
+  "niffler.features.bootstrap":
     "Responsives Layout von der weltbekannten UI-Bibliothek",
-  "anms.features.typescript":
+  "niffler.features.typescript":
     "Überlegene Entwickler Erfahrung, Code-Vervollständigung, Refaktorierung und weniger Bugs",
-  "anms.features.fontawesome":
+  "niffler.features.fontawesome":
     "Einfach zu bedienende Vektor-Icons und soziale Logos",
-  "anms.features.themes":
+  "niffler.features.themes":
     "Flexible Theming-Unterstützung für bereitgestellte und benutzerdefinierte Komponenten.",
-  "anms.features.themes.title": "Themen",
-  "anms.features.lazyloading":
+  "niffler.features.themes.title": "Themen",
+  "niffler.features.lazyloading":
     "Schnellere Startzeit mit Lazy Loaded Feature-Modulen",
-  "anms.features.lazyloading.title": "Lazy Loading",
-  "anms.settings.title": "Einstellungen",
-  "anms.settings.general": "Haupteinstellungen",
-  "anms.settings.general.placeholder": "Sprache",
-  "anms.settings.general.language.en": "Englisch",
-  "anms.settings.general.language.sk": "Slovakisch",
-  "anms.settings.general.language.de": "Deutsch",
-  "anms.settings.general.language.fr": "Französisch",
-  "anms.settings.general.language.pt-br": "Portugiesisch",
-  "anms.settings.themes": "Thema",
-  "anms.settings.themes.placeholder": "Farbthema",
-  "anms.settings.themes.blue": "Blau",
-  "anms.settings.themes.light": "Hell",
-  "anms.settings.themes.nature": "Natur",
-  "anms.settings.themes.dark": "Dunkel",
-  "anms.settings.themes.night-mode": "Auto Nachtmodus (von 21:00 bis 7:00)",
-  "anms.settings.animations": "Animationen",
-  "anms.settings.animations.page": "Navigation ganzer Seitenübergang",
-  "anms.settings.animations.elements":
+  "niffler.features.lazyloading.title": "Lazy Loading",
+  "niffler.settings.title": "Einstellungen",
+  "niffler.settings.general": "Haupteinstellungen",
+  "niffler.settings.general.placeholder": "Sprache",
+  "niffler.settings.general.language.en": "Englisch",
+  "niffler.settings.general.language.sk": "Slovakisch",
+  "niffler.settings.general.language.de": "Deutsch",
+  "niffler.settings.general.language.fr": "Französisch",
+  "niffler.settings.general.language.pt-br": "Portugiesisch",
+  "niffler.settings.themes": "Thema",
+  "niffler.settings.themes.placeholder": "Farbthema",
+  "niffler.settings.themes.blue": "Blau",
+  "niffler.settings.themes.light": "Hell",
+  "niffler.settings.themes.nature": "Natur",
+  "niffler.settings.themes.dark": "Dunkel",
+  "niffler.settings.themes.night-mode": "Auto Nachtmodus (von 21:00 bis 7:00)",
+  "niffler.settings.animations": "Animationen",
+  "niffler.settings.animations.page": "Navigation ganzer Seitenübergang",
+  "niffler.settings.animations.elements":
     "Navigation Seitenelemente nach oben schieben"
 }

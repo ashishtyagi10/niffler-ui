@@ -1,5 +1,9 @@
-$anms-primary: mat-palette($mat-indigo, 800, 300, 900);
-$anms-accent: mat-palette($mat-light-blue);
-$anms-warn: mat-palette($mat-pink, 600);
+$niffler-primary: mat-palette($mat-indigo, 800, 300, 900);
+$niffler-accent: mat-palette($mat-light-blue);
+$niffler-warn: mat-palette($mat-pink, 600);
 
-$anms-theme: mat-light-theme($anms-primary, $anms-accent, $anms-warn);
+$niffler-theme: mat-light-theme(
+  $niffler-primary,
+  $niffler-accent,
+  $niffler-warn
+);

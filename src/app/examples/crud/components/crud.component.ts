@@ -14,7 +14,7 @@ import { ActionBooksUpsertOne, ActionBooksDeleteOne } from '../books.actions';
 import { selectSelectedBook, selectAllBooks } from '../books.selectors';
 
 @Component({
-  selector: 'anms-crud',
+  selector: 'niffler-crud',
   templateUrl: './crud.component.html',
   styleUrls: ['./crud.component.scss']
 })

@@ -19,7 +19,7 @@ import { State } from '../../examples.state';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'anms-todos',
+  selector: 'niffler-todos',
   templateUrl: './todos-container.component.html',
   styleUrls: ['./todos-container.component.scss']
 })
@@ -79,7 +79,7 @@ export class TodosContainerComponent implements OnInit, OnDestroy {
   onAddTodo() {
     this.store.dispatch(new ActionTodosAdd({ name: this.newTodo }));
     const addedMessage = this.translateService.instant(
-      'anms.examples.todos.added.notification',
+      'niffler.examples.todos.added.notification',
       { name: this.newTodo }
     );
     this.showNotification(addedMessage);
@@ -89,11 +89,11 @@ export class TodosContainerComponent implements OnInit, OnDestroy {
   onToggleTodo(todo: Todo) {
     this.store.dispatch(new ActionTodosToggle({ id: todo.id }));
     const newStatus = this.translateService.instant(
-      `anms.examples.todos.filter.${todo.done ? 'active' : 'done'}`
+      `niffler.examples.todos.filter.${todo.done ? 'active' : 'done'}`
     );
-    const undo = this.translateService.instant('anms.examples.todos.undo');
+    const undo = this.translateService.instant('niffler.examples.todos.undo');
     const toggledMessage = this.translateService.instant(
-      'anms.examples.todos.toggle.notification',
+      'niffler.examples.todos.toggle.notification',
       { name: todo.name }
     );
     this.showNotification(`${toggledMessage} ${newStatus}`, undo)
@@ -104,7 +104,7 @@ export class TodosContainerComponent implements OnInit, OnDestroy {
   onRemoveDoneTodos() {
     this.store.dispatch(new ActionTodosRemoveDone());
     const removedMessage = this.translateService.instant(
-      'anms.examples.todos.remove.notification'
+      'niffler.examples.todos.remove.notification'
     );
     this.showNotification(removedMessage);
   }
@@ -112,10 +112,10 @@ export class TodosContainerComponent implements OnInit, OnDestroy {
   onFilterTodos(filter: TodosFilter) {
     this.store.dispatch(new ActionTodosFilter({ filter }));
     const filterToMessage = this.translateService.instant(
-      'anms.examples.todos.filter.notification'
+      'niffler.examples.todos.filter.notification'
     );
     const filterMessage = this.translateService.instant(
-      `anms.examples.todos.filter.${filter.toLowerCase()}`
+      `niffler.examples.todos.filter.${filter.toLowerCase()}`
     );
     this.showNotification(`${filterToMessage} ${filterMessage}`);
   }

@@ -5,7 +5,7 @@ import { ROUTE_ANIMATIONS_ELEMENTS } from '@app/core';
 import { features } from './features.data';
 
 @Component({
-  selector: 'anms-features',
+  selector: 'niffler-features',
   templateUrl: './features.component.html',
   styleUrls: ['./features.component.scss']
 })
